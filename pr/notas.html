@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp12funcion</title>
+</head>
+<body>
+    <script>
+        var nota1 = prompt("ingrese la nota")
+        var nota2 = prompt("ingrese la nota")
+        var nota3 = prompt("ingrese la nota")
+        function promedio (nota1,nota2,nota3){
+        var suma = (parseInt(nota1) + parseInt(nota2) + parseInt(nota3));
+
+        var promedio = suma /3;
+
+        if(promedio >= 7){
+            alert("promocionado")
+        }
+        else if(promedio >= 4 && promedio <7){
+            alert("regular")
+        }
+        else if (promedio <4 ){
+            alert("reprobado")
+        }
+        }
+        promedio (nota1,nota2,nota3)
+    </script>
+</body>
+</html>

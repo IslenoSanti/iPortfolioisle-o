@@ -1,0 +1,91 @@
+.bac{
+    background-color: darkseagreen;
+}
+
+.tit{
+    border-style: solid; border-color: indigo;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 6px yellow;
+}
+.tm{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+table, td, th{
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center
+}
+.a{
+    position: relative;
+    left: 450px;
+    top: -125px;
+}
+
+.g{
+    text-align: center;
+    border-style: solid; border-color: indigo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -250px;
+    text-shadow: 3px 3px 6px yellow
+}
+.xd{
+    position: relative;
+    left: 818px;
+    top: -349px;
+    border-radius: 10px;
+    border-style: solid;
+}
+.gg{
+    position: relative;
+    top: -250px;
+    text-align: center;
+}
+.i{
+    position: relative;
+    top: -850px;
+    left: 230px;
+}
+tr:hover{
+    background-color: crimson;
+}
+tr:nth-child(even) {
+        background-color: rgb(180, 160, 176);
+}
+.lol{
+    position: relative;
+    left: 35px;
+    top: 50px;
+}
+.peron{
+    border-style: solid;
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgb(230, 209, 209);
+    position: relative;
+    top: px;
+}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  .sex{
+    position: relative;
+    top: -1150px;
+    left: 1050px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(230, 209, 209);
+    overflow: auto;
+    width: 150px;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman', Times, serif, Georgia, 'Times New Roman', Times, serif;
+  }
